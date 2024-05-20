@@ -32,7 +32,7 @@ public class DAOServiceImplement implements DAOservice{
 
     @Override
     public List<User> getUsers() {
-        System.out.println(1);
+        userDAO.addUser(new User("dhrjg", "drhyg", "ejrgf", 65));
         return userDAO.getUsers();
     }
 

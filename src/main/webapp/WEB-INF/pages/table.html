@@ -8,18 +8,23 @@
 <div>
     <table border="1">
         <tr>
+            <th> </th>
             <th> Name </th>
             <th> Lastname </th>
             <th> Email </th>
             <th> Ege </th>
+            <th>  </th>
         </tr>
         <tr th:each="user : ${users_list}">
+            <th><p><a href="/update_user"><img src="https://i.postimg.cc/Fs7fRMt8/tool-pencil-icon-259637.jpg" width="20" height="20"></a></p></th>
             <td th:utext="${user.getName()}"></td>
-            <td th:utext="${user.getLastname}"></td>
-            <td th:utext="${user.getEmail}"></td>
-            <td th:utext="${user.getEge}"></td>
+            <td th:utext="${user.getLastname()}"></td>
+            <td th:utext="${user.getEmail()}"></td>
+            <td th:utext="${user.getAge()}"></td>
+            <th><p><a href="/table"><img src="https://i.postimg.cc/rpt3wFgs/tool-scissor-cut-scissors-icon-259593.jpg" width="20" height="20"></a></p></th>
         </tr>
     </table>
 </div>
+<a href="/add_user">Создать нового пользователя</a>
 </body>
 </html>
