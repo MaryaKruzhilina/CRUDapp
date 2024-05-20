@@ -10,14 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba5135b8-5f5d-40e6-bbb3-c1c65a18dcb9" name="Changes" comment="create dependency for pow">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/config/DBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,11 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -198,7 +204,7 @@
       <workItem from="1716193178398" duration="297000" />
       <workItem from="1716193483386" duration="1588000" />
       <workItem from="1716195251654" duration="560000" />
-      <workItem from="1716195820450" duration="4278000" />
+      <workItem from="1716195820450" duration="15786000" />
     </task>
     <task id="LOCAL-00001" summary="create HTML">
       <option name="closed" value="true" />
@@ -224,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716196188982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create dependency for pow">
+      <option name="closed" value="true" />
+      <created>1716200439294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716200439294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,5 +248,16 @@
     <MESSAGE value="create HTML" />
     <MESSAGE value="create dependency for pow" />
     <option name="LAST_COMMIT_MESSAGE" value="create dependency for pow" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/maryKr/config/DBConfig.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
