@@ -3,12 +3,12 @@ package ru.maryKr.DAO;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import ru.maryKr.model.User;
 
 import java.util.List;
-@Repository
+@Component
 public class UserDAOImplement implements UserDAO{
     @PersistenceContext
     private EntityManager em;
@@ -26,7 +26,6 @@ public class UserDAOImplement implements UserDAO{
     @Transactional
     @Override
     public List<User> getUsers() {
-        System.out.println(2);
         return em.createQuery("select u from User u", User.class).getResultList();
     }
     @Transactional

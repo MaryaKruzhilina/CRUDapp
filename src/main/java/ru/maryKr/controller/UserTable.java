@@ -29,4 +29,22 @@ public class UserTable {
         model.addAttribute("users_list", users);
         return "table";
     }
+//    <div align="center">
+//    <table border="1">
+//        <tr>
+//            <th> Name </th>
+//            <th> Lastname </th>
+//            <th> Email </th>
+//            <th> Ege </th>
+//        </tr>
+//        <tr th:method="POST" th:action="@{/add_user}" th:object="${user}">
+//            <td><input type="text" th:field="*{name}"></td>
+//            <td><input type="text" th:field="*{lastname}"></td>
+//            <td><input type="text" th:field="*{email}"></td>
+//            <td><input type="text" th:field="*{age}"></td>
+//            <td><input type="submit" value="Добавить"/></td>
+//        </tr>
+//
+//    </table>
+//</div>
 }

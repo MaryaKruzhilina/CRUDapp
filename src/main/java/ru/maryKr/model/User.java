@@ -11,9 +11,9 @@ public class User {
     private String name;
     private String lastname;
     private String email;
-    private int age;
+    private String age;
 
-    public User(String name, String lastname, String email, int age) {
+    public User(String name, String lastname, String email, String age) {
         this.name = name;
         this.lastname = lastname;
         this.email = email;
@@ -47,11 +47,11 @@ public class User {
         this.email = email;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 

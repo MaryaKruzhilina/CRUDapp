@@ -33,15 +33,6 @@ public class DBConfig {
         dataSource.setPassword(env.getProperty("db.password"));
         return dataSource;
     }
-//    @Bean
-//    public LocalContainerEntityManagerFactoryBean localContainerEntityManagerFactoryBean() {
-//        LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-//        em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
-//        em.setDataSource(getDataSource());
-//        em.setPackagesToScan(environment.getRequiredProperty("jdbc.entity.package"));
-//        em.setJpaProperties(getHibernateProperties());
-//        return em;
-//    }
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();

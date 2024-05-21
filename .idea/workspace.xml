@@ -9,11 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba5135b8-5f5d-40e6-bbb3-c1c65a18dcb9" name="Changes" comment="create dependency for pow">
+    <list default="true" id="ba5135b8-5f5d-40e6-bbb3-c1c65a18dcb9" name="Changes" comment="create table html">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/AddUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/config/DBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +55,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.spring-mvc [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.24.executor": "Run",
-    "Tomcat Server.Tomcat 9.0.89.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/UserLocation/src/main/java/ru/maryKr",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-mvc [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.24.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.89.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/UserLocation/src/main/java/ru/maryKr&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\UserLocation\src\main\java\ru\maryKr" />
@@ -91,6 +97,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -199,7 +206,8 @@
       <workItem from="1716193178398" duration="297000" />
       <workItem from="1716193483386" duration="1588000" />
       <workItem from="1716195251654" duration="560000" />
-      <workItem from="1716195820450" duration="19596000" />
+      <workItem from="1716195820450" duration="21360000" />
+      <workItem from="1716267998130" duration="16114000" />
     </task>
     <task id="LOCAL-00001" summary="create HTML">
       <option name="closed" value="true" />
@@ -241,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716220652935</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create table html">
+      <option name="closed" value="true" />
+      <created>1716226255700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716226255700</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,14 +266,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create HTML" />
     <MESSAGE value="create dependency for pow" />
-    <option name="LAST_COMMIT_MESSAGE" value="create dependency for pow" />
+    <MESSAGE value="create table html" />
+    <option name="LAST_COMMIT_MESSAGE" value="create table html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/maryKr/config/DBConfig.java</url>
-          <line>51</line>
+          <line>42</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
