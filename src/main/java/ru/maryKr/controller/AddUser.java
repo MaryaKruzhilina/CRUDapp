@@ -22,7 +22,6 @@ public class AddUser {
     }
     @PostMapping("/add_user/add")
     public String addNewUser(@ModelAttribute("user") User user) {
-        System.out.println("My user" + user);
         service.addUser(user);
         return "redirect:/table";
     }

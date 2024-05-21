@@ -1,7 +1,6 @@
 package ru.maryKr.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-import org.thymeleaf.context.WebExpressionContext;
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 

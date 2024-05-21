@@ -20,8 +20,8 @@ public class DAOServiceImplement implements DAOservice{
     }
 
     @Override
-    public void removeUser(User user) {
-
+    public void removeUser(long id) {
+        userDAO.removeUser(id);
     }
 
     @Override
@@ -30,7 +30,12 @@ public class DAOServiceImplement implements DAOservice{
     }
 
     @Override
-    public void updateUser(User user) {
+    public void updateUser(long id, User user) {
+        userDAO.updateUser(id,user);
+    }
 
+    @Override
+    public User getUser(long id) {
+        return userDAO.getUser(id);
     }
 }

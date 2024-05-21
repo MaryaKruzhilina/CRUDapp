@@ -20,8 +20,8 @@ public class UserDAOImplement implements UserDAO{
     }
     @Transactional
     @Override
-    public void removeUser(User user) {
-
+    public void removeUser(long id) {
+        em.remove(em.find(User.class, id));
     }
     @Transactional
     @Override
@@ -30,7 +30,17 @@ public class UserDAOImplement implements UserDAO{
     }
     @Transactional
     @Override
-    public void updateUser(User user) {
+    public void updateUser(long id, User user) {
+        User u = em.find(User.class, id);
+        u.setName(user.getName());
+        u.setEmail(user.getEmail());
+        u.setLastname(user.getLastname());
+        u.setAge(user.getAge());
+        em.merge(u);
+    }
 
+    @Override
+    public User getUser(long id) {
+        return em.find(User.class, id);
     }
 }
