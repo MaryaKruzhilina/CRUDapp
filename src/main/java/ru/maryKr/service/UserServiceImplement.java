@@ -1,16 +1,16 @@
 package ru.maryKr.service;
 
 import org.springframework.stereotype.Service;
-import ru.maryKr.DAO.UserDAO;
+import ru.maryKr.dao.UserDAO;
 import ru.maryKr.model.User;
 
 import java.util.List;
 @Service
-public class DAOServiceImplement implements DAOservice{
+public class UserServiceImplement implements UserService {
 
     private UserDAO userDAO;
 
-    public DAOServiceImplement(UserDAO userDAO){
+    public UserServiceImplement(UserDAO userDAO){
         this.userDAO = userDAO;
     }
 

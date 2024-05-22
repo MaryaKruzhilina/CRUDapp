@@ -4,7 +4,7 @@ import ru.maryKr.model.User;
 
 import java.util.List;
 
-public interface DAOservice {
+public interface UserService {
     void addUser(User user);
     void removeUser(long id);
     List<User> getUsers();

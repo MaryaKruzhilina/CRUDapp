@@ -1,4 +1,4 @@
-package ru.maryKr.DAO;
+package ru.maryKr.dao;
 
 
 import jakarta.persistence.EntityManager;

@@ -9,20 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba5135b8-5f5d-40e6-bbb3-c1c65a18dcb9" name="Changes" comment="create user">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/Delete.java" afterDir="false" />
+    <list default="true" id="ba5135b8-5f5d-40e6-bbb3-c1c65a18dcb9" name="Changes" comment="final1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/DAO/UserDAOImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/dao/UserDAOImplement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/AddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/AddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/Delete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UpdateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/add_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/update_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/update_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/Welcome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/UserServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/DAOservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +208,7 @@
       <workItem from="1716193483386" duration="1588000" />
       <workItem from="1716195251654" duration="560000" />
       <workItem from="1716195820450" duration="21360000" />
-      <workItem from="1716267998130" duration="28805000" />
+      <workItem from="1716267998130" duration="31276000" />
     </task>
     <task id="LOCAL-00001" summary="create HTML">
       <option name="closed" value="true" />
@@ -268,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716296694805</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="final1">
+      <option name="closed" value="true" />
+      <created>1716325060305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716325060305</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,17 +285,7 @@
     <MESSAGE value="create dependency for pow" />
     <MESSAGE value="create table html" />
     <MESSAGE value="create user" />
-    <option name="LAST_COMMIT_MESSAGE" value="create user" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserTable.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="final1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final1" />
   </component>
 </project>
