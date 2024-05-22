@@ -6,6 +6,7 @@ import ru.maryKr.dao.UserDAO;
 import ru.maryKr.model.User;
 
 import java.util.List;
+
 @Service
 public class UserServiceImplement implements UserService {
 
