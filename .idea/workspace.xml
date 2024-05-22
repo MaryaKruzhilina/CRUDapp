@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba5135b8-5f5d-40e6-bbb3-c1c65a18dcb9" name="Changes" comment="create one controller">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maryKr/controller/UserController.java" afterDir="false" />
-    </list>
+    <list default="true" id="ba5135b8-5f5d-40e6-bbb3-c1c65a18dcb9" name="Changes" comment="final2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +196,7 @@
       <workItem from="1716193483386" duration="1588000" />
       <workItem from="1716195251654" duration="560000" />
       <workItem from="1716195820450" duration="21360000" />
-      <workItem from="1716267998130" duration="32919000" />
+      <workItem from="1716267998130" duration="33186000" />
     </task>
     <task id="LOCAL-00001" summary="create HTML">
       <option name="closed" value="true" />
@@ -280,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716364756242</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final2">
+      <option name="closed" value="true" />
+      <created>1716365290278</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716365290278</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +299,7 @@
     <MESSAGE value="create user" />
     <MESSAGE value="final1" />
     <MESSAGE value="create one controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="create one controller" />
+    <MESSAGE value="final2" />
+    <option name="LAST_COMMIT_MESSAGE" value="final2" />
   </component>
 </project>
