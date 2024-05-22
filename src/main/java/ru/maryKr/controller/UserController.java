@@ -21,7 +21,7 @@ public class UserController {
 
     @GetMapping("/")
     public String getStartPage() {
-        return "welcome";
+        return "/welcome";
     }
     @GetMapping("/table")
     public String getTable(ModelMap model) {
